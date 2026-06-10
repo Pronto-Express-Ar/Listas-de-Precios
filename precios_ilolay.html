@@ -216,7 +216,6 @@ footer { text-align:center; padding:20px; font-size:10px; color:var(--muted); le
 </style>
 </head>
 <body>
-
 <header>
   <div class="header-top">
     <div class="brand">
@@ -228,7 +227,7 @@ footer { text-align:center; padding:20px; font-size:10px; color:var(--muted); le
     </div>
     <div class="header-meta">
       <div class="header-count" id="visibleCount">67 productos</div>
-      <div class="header-date">🥛 ILOLAY · 05/05/2026</div>
+      <div class="header-date">🥛 ILOLAY · 05/06/2026</div>
     </div>
   </div>
   <div class="notice-bar">
@@ -257,11 +256,10 @@ footer { text-align:center; padding:20px; font-size:10px; color:var(--muted); le
     </button>
   </div>
 </header>
-
 <main>
   <div class="print-header">
     <h1>PRONTO EXPRESS · ILOLAY</h1>
-    <p>Precios en pesos argentinos · Actualizado: 05/05/2026 · Sujetos a cambios sin previo aviso</p>
+    <p>Precios en pesos argentinos · Actualizado: 05/06/2026 · Sujetos a cambios sin previo aviso</p>
   </div>
   <div class="provider-header-card">
     <div class="provider-emoji">🥛</div>
@@ -271,7 +269,7 @@ footer { text-align:center; padding:20px; font-size:10px; color:var(--muted); le
     </div>
     <div class="provider-card-stats">
       <span class="stat-chip"><strong>67</strong> productos</span>
-      <span class="stat-chip">Actualizado: <strong>05/05/2026</strong></span>
+      <span class="stat-chip">Actualizado: <strong>05/06/2026</strong></span>
       <span class="stat-chip">Precios en <strong>ARS</strong></span>
     </div>
   </div>
@@ -282,7 +280,6 @@ footer { text-align:center; padding:20px; font-size:10px; color:var(--muted); le
     <p>Proba con otro termino o categoria</p>
   </div>
 </main>
-
 <button class="cart-fab empty" id="cartFab" onclick="openCart()">
   <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
     <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
@@ -291,7 +288,6 @@ footer { text-align:center; padding:20px; font-size:10px; color:var(--muted); le
   Pedido
   <span class="cart-count" id="cartCount">0</span>
 </button>
-
 <div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
 <div class="cart-drawer" id="cartDrawer">
   <div class="cart-handle"></div>
@@ -325,13 +321,11 @@ footer { text-align:center; padding:20px; font-size:10px; color:var(--muted); le
     </button>
   </div>
 </div>
-
-<footer>Lista vigente al 05/05/2026 · ILOLAY · Precios en pesos argentinos · Sujetos a cambios sin previo aviso</footer>
-
+<footer>Lista vigente al 05/06/2026 · ILOLAY · Precios en pesos argentinos · Sujetos a cambios sin previo aviso</footer>
 <script>
-const ALL_PRODUCTS   = [["60230", "Chocolatada x1lt Tetra", 2500.13, "chocolatadas"], ["60270", "Chocolatada x200cc", 1200.24, "chocolatadas"], ["6080", "Crema Leche Doble x200ml", 2214.23, "cremas"], ["60160", "Crema Leche Simple x200ml", 2012.94, "cremas"], ["60224", "Crema Leche Simple x350ml", 3313.22, "cremas"], ["60105", "Dulce de Leche Repostero x400g", 3002.4, "dulce_leche"], ["6000", "Dulce de Leche x200g", 1501.27, "dulce_leche"], ["60371", "Dulce de Leche x25g Mini x108u", 22368.61, "dulce_leche"], ["6001", "Dulce de Leche x400g Clásico", 2729.49, "dulce_leche"], ["6070", "Flan x110g Vainilla", 932.54, "flanes"], ["6071", "Flan x110g Vainilla c/Dulce de Leche", 932.54, "flanes"], ["6065", "Postre Kids x110g Confites", 1794.38, "flanes"], ["6064", "Postre Kids x110g Crispines", 1794.38, "flanes"], ["6067", "Postre x120g Dulce de Leche", 968.85, "flanes"], ["6060", "Postre x120g Vainilla", 968.85, "flanes"], ["6062", "Postre x120g Vainilla/Dulce de Leche", 968.85, "flanes"], ["6061", "Postre x120g Chocolate", 968.85, "flanes"], ["60221", "Larga Vida Descremada x1lt", 2246.71, "leche"], ["60220", "Larga Vida Entera x1lt", 2246.71, "leche"], ["60265", "Larga Vida Red. Lactosa (0%) x1lt", 1909.35, "leche"], ["60390", "Leche en Polvo Descr. x800g", 10287.07, "leche"], ["60392", "Leche en Polvo Descr. x400g", 5658.02, "leche"], ["60389", "Leche en Polvo Ent. x800g", 9351.83, "leche"], ["60290", "Leche Polvo x5g Descr. Mini x30u", 4858.85, "leche"], ["60110", "Manteca x10g Mini x108u", 19517.43, "manteca"], ["60222", "Port Salut Light xKg", 12140.99, "quesos_ilo"], ["60294", "Queso Untable Mini 20g x108u", 24291.75, "quesos_ilo"], ["40018", "Ralladito Display 20u x40g", 27337.0, "ralladito"], ["400180", "Ralladito Mini 8g x100u", 33223.59, "ralladito"], ["4270", "Tetra Yog Descr. Frutilla x950g", 2210.7, "yogures"], ["4271", "Tetra Yog Descr. Vainilla x950g", 2210.7, "yogures"], ["4232", "Tetra Yog Ent. Durazno x950g", 2210.7, "yogures"], ["4230", "Tetra Yog Ent. Frutilla x950g", 2210.7, "yogures"], ["4231", "Tetra Yog Ent. Vainilla x950g", 2210.7, "yogures"], ["60305", "Yog Batido Cremoso x120g Desc. Fruti", 653.58, "yogures"], ["60251", "Yog Batido Cremoso x120g Desc. Vaini", 653.58, "yogures"], ["60250", "Yog Batido Cremoso x120g Frutilla", 653.58, "yogures"], ["60252", "Yog Batido Cremoso x120g Vainilla", 653.58, "yogures"], ["6038", "Yog Batido Natural x140g", 1153.36, "yogures"], ["6039", "Yog Batido Natural x350g", 2145.25, "yogures"], ["60306", "Yog Botellita Deslact. Frutilla x185cc", 1827.65, "yogures"], ["60307", "Yog Botellita Deslact. Vainilla x185cc", 1827.65, "yogures"], ["60301", "Yog Botellita x185cc Ent. Durazno", 1124.71, "yogures"], ["60300", "Yog Botellita x185cc Ent. Frutilla", 1124.71, "yogures"], ["60253", "Yog Crem. Deslact x90g Frutilla (x2u)", 1315.52, "yogures"], ["60254", "Yog Crem. Deslact x90g Vainilla (x2u)", 1315.52, "yogures"], ["60302", "Yog Firme 120g Ent. Frutilla", 544.65, "yogures"], ["60303", "Yog Firme 120g Ent. Vainilla", 544.65, "yogures"], ["6035", "Yog Firme Desc. Frutilla x190g", 988.03, "yogures"], ["6036", "Yog Firme Desc. Vainilla x190g", 988.03, "yogures"], ["6032", "Yog Firme Ent. Dulce de Leche x190g", 988.03, "yogures"], ["6030", "Yog Firme Ent. Frutilla x190g", 988.03, "yogures"], ["6031", "Yog Firme Ent. Vainilla x190g", 988.03, "yogures"], ["60551", "Yog Frutado x150g Descr. Durazno", 1211.03, "yogures"], ["60550", "Yog Frutado x150g Descr. Frutilla", 1211.03, "yogures"], ["60552", "Yog Frutado x150g Ent. Arándanos", 1211.03, "yogures"], ["60331", "Yog Frutado x150g Ent. Durazno", 1211.03, "yogures"], ["60330", "Yog Frutado x150g Ent. Frutilla", 1211.03, "yogures"], ["60460", "Yog Kids x160g Aritos Top", 1327.43, "yogures"], ["60231", "Yog Sachet x900g Descr. Frutilla", 1772.27, "yogures"], ["60232", "Yog Sachet x900g Descr. Vainilla", 1772.27, "yogures"], ["60235", "Yog Sachet x900g Ent. Durazno", 1772.27, "yogures"], ["60233", "Yog Sachet x900g Ent. Frutilla", 1772.27, "yogures"], ["60237", "Yog Sachet x900g Ent. Kiwi/Frutilla", 1772.27, "yogures"], ["60234", "Yog Sachet x900g Ent. Vainilla", 1772.27, "yogures"], ["60261", "Yog x165g P/Mez Descr. c/Cereal", 1327.43, "yogures"], ["60260", "Yog x165g P/Mez Entero c/Cereal", 1327.43, "yogures"]];
-const CATEGORIES_MAP = {"capeletis": ["🥟", "Capeletis"], "empanadas": ["🫔", "Empanadas"], "fideos": ["🍝", "Fideos"], "miel_orali": ["🍯", "Miel & Levadura"], "noquis": ["🥔", "Ñoquis"], "tortillas": ["🌯", "Tortillas"], "pascualina": ["🥧", "Pascualinas"], "pionono": ["🍰", "Pionono"], "ravioles": ["🍝", "Ravioles"], "sorrentinos": ["🥟", "Sorrentinos"], "sustituto": ["🌿", "Sustitutos de Carne"], "tapas": ["🫓", "Tapas"], "tubos": ["📦", "Tubos"], "chocolatadas": ["🍫", "Chocolatadas"], "cremas": ["🥛", "Cremas de Leche"], "dulce_leche": ["🍮", "Dulce de Leche"], "flanes": ["🍮", "Flanes & Postres"], "leche": ["🥛", "Leche & Leche en Polvo"], "manteca": ["🧈", "Manteca"], "quesos_ilo": ["🧀", "Quesos"], "ralladito": ["🧀", "Ralladito"], "yogures": ["🥛", "Yogures"], "bondiola": ["🥩", "Bondiola"], "feteados": ["🍖", "Feteados"], "fiambres": ["🍗", "Fiambres Cocidos"], "jamon": ["🥩", "Jamón"], "leberwurst": ["🌭", "Leberwurst"], "longaniza": ["🌭", "Longaniza"], "mortadela": ["🥩", "Mortadela"], "panceta": ["🥓", "Panceta"], "pernil": ["🥩", "Pernil"], "queso_cerdo": ["🧀", "Queso de Cerdo"], "salame": ["🍖", "Salame"], "salamin": ["🌭", "Salamín"], "salchicha": ["🌭", "Salchichas"], "cremas_qp": ["🥛", "Cremas"], "cremoso": ["🧀", "Cremoso"], "dulce_paul": ["🍮", "Dulce de Leche"], "ofertas": ["🏷️", "Ofertas"], "otros_qs": ["🧀", "Quesos Varios"], "gouda": ["🧀", "Gouda"], "goya": ["🧀", "Goya"], "leche_paul": ["🥛", "Leche en Polvo"], "manteca_paul": ["🧈", "Manteca"], "mozzarella": ["🧀", "Mozzarella"], "provolone": ["🧀", "Provolone"], "q_crema": ["🧀", "Queso Crema"], "q_hebras": ["🧀", "Queso en Hebras"], "q_unt": ["🧀", "Queso Untable"], "ralladito_p": ["🧀", "Ralladito"]};
-const PRIORITY_CATS  = new Set(["ofertas"]);
+const ALL_PRODUCTS   = [["60230", "Chocolatada x1lt Tetra", 2575.14, "chocolatadas"], ["60270", "Chocolatada x200cc", 1236.25, "chocolatadas"], ["6080", "Crema Leche Doble x200ml", 2280.65, "cremas"], ["60160", "Crema Leche Simple x200ml", 2073.33, "cremas"], ["60224", "Crema Leche Simple x350ml", 3412.61, "cremas"], ["60105", "Dulce de Leche Repostero x400g", 3247.1, "dulce_leche"], ["6000", "Dulce de Leche x200g", 1623.63, "dulce_leche"], ["60371", "Dulce de Leche x25g Mini x108u", 24191.66, "dulce_leche"], ["6001", "Dulce de Leche x400g Clasico", 2951.94, "dulce_leche"], ["6070", "Flan x110g Vainilla", 1008.54, "flanes"], ["6071", "Flan x110g Vainilla c/Dulce de Leche", 1008.54, "flanes"], ["6065", "Postre Kids x110g Confites", 1940.62, "flanes"], ["6064", "Postre Kids x110g Crispines", 1940.62, "flanes"], ["6067", "Postre x120g Dulce de Leche", 1047.81, "flanes"], ["6060", "Postre x120g Vainilla", 1047.81, "flanes"], ["6062", "Postre x120g Vainilla/Dulce de Leche", 1047.81, "flanes"], ["6061", "Postre x120g Chocolate", 1047.81, "flanes"], ["60221", "Larga Vida Descremada x1lt", 2246.71, "leche"], ["60220", "Larga Vida Entera x1lt", 2246.71, "leche"], ["60265", "Larga Vida Red. Lactosa (0%) x1lt", 2163.29, "leche"], ["60390", "Leche en Polvo Descr. x800g", 10913.55, "leche"], ["60392", "Leche en Polvo Descr. x400g", 6002.6, "leche"], ["60389", "Leche en Polvo Ent. x800g", 9921.36, "leche"], ["60290", "Leche Polvo x5g Descr. Mini x30u", 5154.76, "leche"], ["60110", "Manteca x10g Mini x108u", 20102.96, "manteca"], ["60222", "Port Salut Light xKg", 12880.38, "quesos_ilo"], ["60294", "Queso Untable Mini 20g x108u", 25771.12, "quesos_ilo"], ["40018", "Ralladito Display 20u x40g", 29001.83, "ralladito"], ["400180", "Ralladito Mini 8g x100u", 35246.9, "ralladito"], ["4270", "Tetra Yog Descr. Frutilla x950g", 2321.24, "yogures"], ["4271", "Tetra Yog Descr. Vainilla x950g", 2321.24, "yogures"], ["4232", "Tetra Yog Ent. Durazno x950g", 2321.24, "yogures"], ["4230", "Tetra Yog Ent. Frutilla x950g", 2321.24, "yogures"], ["4231", "Tetra Yog Ent. Vainilla x950g", 2321.24, "yogures"], ["60305", "Yog Batido Cremoso x120g Desc. Fruti", 720.57, "yogures"], ["60251", "Yog Batido Cremoso x120g Desc. Vaini", 720.57, "yogures"], ["60250", "Yog Batido Cremoso x120g Frutilla", 720.57, "yogures"], ["60252", "Yog Batido Cremoso x120g Vainilla", 720.57, "yogures"], ["6038", "Yog Batido Natural x140g", 1187.96, "yogures"], ["6039", "Yog Batido Natural x350g", 2209.61, "yogures"], ["60306", "Yog Botellita Deslact. Frutilla x185cc", 1919.03, "yogures"], ["60307", "Yog Botellita Deslact. Vainilla x185cc", 1919.03, "yogures"], ["60301", "Yog Botellita x185cc Ent. Durazno", 1180.95, "yogures"], ["60300", "Yog Botellita x185cc Ent. Frutilla", 1180.95, "yogures"], ["60253", "Yog Crem. Deslact x90g Frutilla (x2u)", 1450.36, "yogures"], ["60254", "Yog Crem. Deslact x90g Vainilla (x2u)", 1450.36, "yogures"], ["60302", "Yog Firme 120g Ent. Frutilla", 600.48, "yogures"], ["60303", "Yog Firme 120g Ent. Vainilla", 600.48, "yogures"], ["6035", "Yog Firme Desc. Frutilla x190g", 1089.3, "yogures"], ["6036", "Yog Firme Desc. Vainilla x190g", 1089.3, "yogures"], ["6032", "Yog Firme Ent. Dulce de Leche x190g", 1089.3, "yogures"], ["6030", "Yog Firme Ent. Frutilla x190g", 1089.3, "yogures"], ["6031", "Yog Firme Ent. Vainilla x190g", 1089.3, "yogures"], ["60551", "Yog Frutado x150g Descr. Durazno", 1335.16, "yogures"], ["60550", "Yog Frutado x150g Descr. Frutilla", 1335.16, "yogures"], ["60552", "Yog Frutado x150g Ent. Arandanos", 1335.16, "yogures"], ["60331", "Yog Frutado x150g Ent. Durazno", 1335.16, "yogures"], ["60330", "Yog Frutado x150g Ent. Frutilla", 1335.16, "yogures"], ["60460", "Yog Kids x160g Aritos Top", 1463.5, "yogures"], ["60231", "Yog Sachet x900g Descr. Frutilla", 1860.89, "yogures"], ["60232", "Yog Sachet x900g Descr. Vainilla", 1860.89, "yogures"], ["60235", "Yog Sachet x900g Ent. Durazno", 1860.89, "yogures"], ["60233", "Yog Sachet x900g Ent. Frutilla", 1860.89, "yogures"], ["60237", "Yog Sachet x900g Ent. Kiwi/Frutilla", 1860.89, "yogures"], ["60234", "Yog Sachet x900g Ent. Vainilla", 1860.89, "yogures"], ["60261", "Yog x165g P/Mez Descr. c/Cereal", 1463.5, "yogures"], ["60260", "Yog x165g P/Mez Entero c/Cereal", 1463.5, "yogures"]];
+const CATEGORIES_MAP = {"chocolatadas": ["🍫", "Chocolatadas"], "cremas": ["🥛", "Cremas de Leche"], "dulce_leche": ["🍮", "Dulce de Leche"], "flanes": ["🍮", "Flanes & Postres"], "leche": ["🥛", "Leche & Leche en Polvo"], "manteca": ["🧈", "Manteca"], "quesos_ilo": ["🧀", "Quesos"], "ralladito": ["🧀", "Ralladito"], "yogures": ["🥛", "Yogures"], "dips": ["🥑", "Dips"], "mayonesas": ["🥄", "Mayonesas"], "capeletis": ["🥟", "Capeletis"], "empanadas": ["🫔", "Empanadas"], "fideos": ["🍝", "Fideos"], "miel_orali": ["🍯", "Miel & Levadura"], "noquis": ["🥔", "Noquis"], "tortillas": ["🌯", "Tortillas"], "pascualina": ["🥧", "Pascualinas"], "pionono": ["🍰", "Pionono"], "ravioles": ["🍝", "Ravioles"], "sorrentinos": ["🥟", "Sorrentinos"], "sustituto": ["🌿", "Sustitutos de Carne"], "tapas": ["🫓", "Tapas"], "tubos": ["📦", "Tubos"]};
+const PRIORITY_CATS  = new Set([]);
 const PROV_NAME      = "ILOLAY";
 const SELLERS = [
   {name:"Vanesa",      phone:"5493413425402"},
@@ -340,82 +334,54 @@ const SELLERS = [
   {name:"Lucas",       phone:"5493415491909"},
   {name:"Analia",      phone:"5493415493033"}
 ];
-
-let sortAsc = true, currentSearch = "", currentCat = "";
-let cart = [], selectedSeller = null;
-const cardQty = {};
-
-function fmt(n) {
-  return n.toLocaleString("es-AR", {minimumFractionDigits:2, maximumFractionDigits:2});
+let sortAsc=true,currentSearch="",currentCat="";
+let cart=[],selectedSeller=null;
+const cardQty={};
+function fmt(n){return n.toLocaleString("es-AR",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function hl(text,term){
+  if(!term)return text;
+  const re=new RegExp("("+term.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","gi");
+  return text.replace(re,"<span class='hl'>$1</span>");
 }
-function hl(text, term) {
-  if (!term) return text;
-  const re = new RegExp("(" + term.replace(/[.*+?^${}()|[\]\\]/g,"\\$&") + ")", "gi");
-  return text.replace(re, "<span class='hl'>$1</span>");
-}
-
-function buildCategoryFilter() {
-  const sel = document.getElementById("categoryFilter");
-  // Priority cats first
-  const allCats = [...new Set(ALL_PRODUCTS.map(p => p[3]))];
-  const sorted  = [
-    ...allCats.filter(c => PRIORITY_CATS.has(c)),
-    ...allCats.filter(c => !PRIORITY_CATS.has(c))
-  ];
-  sorted.forEach(cat => {
-    const info = CATEGORIES_MAP[cat];
-    if (!info) return;
-    const opt = document.createElement("option");
-    opt.value = cat;
-    opt.textContent = (PRIORITY_CATS.has(cat) ? "* " : "") + info[0] + " " + info[1];
+function buildCategoryFilter(){
+  const sel=document.getElementById("categoryFilter");
+  const allCats=[...new Set(ALL_PRODUCTS.map(p=>p[3]))];
+  const sorted=[...allCats.filter(c=>PRIORITY_CATS.has(c)),...allCats.filter(c=>!PRIORITY_CATS.has(c))];
+  sorted.forEach(cat=>{
+    const info=CATEGORIES_MAP[cat];if(!info)return;
+    const opt=document.createElement("option");
+    opt.value=cat;opt.textContent=(PRIORITY_CATS.has(cat)?"* ":"")+info[0]+" "+info[1];
     sel.appendChild(opt);
   });
 }
-
-function inCartQty(idx) {
-  const item = cart.find(i => i.idx === idx);
-  return item ? item.qty : 0;
-}
-
-function render() {
-  const container = document.getElementById("productsContainer");
-  const empty     = document.getElementById("emptyState");
-  const countEl   = document.getElementById("visibleCount");
-  const term = currentSearch.toLowerCase();
-
-  let filtered = ALL_PRODUCTS.filter(p =>
-    (!currentCat || p[3] === currentCat) &&
-    (!term || p[1].toLowerCase().includes(term) || p[0].toLowerCase().includes(term))
-  );
-  filtered.sort((a,b) => sortAsc ? a[2]-b[2] : b[2]-a[2]);
-
-  countEl.textContent = filtered.length + " producto" + (filtered.length !== 1 ? "s" : "");
-  if (!filtered.length) { container.innerHTML = ""; empty.classList.add("visible"); return; }
+function inCartQty(idx){const item=cart.find(i=>i.idx===idx);return item?item.qty:0;}
+function render(){
+  const container=document.getElementById("productsContainer");
+  const empty=document.getElementById("emptyState");
+  const countEl=document.getElementById("visibleCount");
+  const term=currentSearch.toLowerCase();
+  let filtered=ALL_PRODUCTS.filter(p=>(!currentCat||p[3]===currentCat)&&(!term||p[1].toLowerCase().includes(term)||p[0].toLowerCase().includes(term)));
+  filtered.sort((a,b)=>sortAsc?a[2]-b[2]:b[2]-a[2]);
+  countEl.textContent=filtered.length+" producto"+(filtered.length!==1?"s":"");
+  if(!filtered.length){container.innerHTML="";empty.classList.add("visible");return;}
   empty.classList.remove("visible");
-
-  // Group by cat, priority cats first
-  const byCat = {};
-  filtered.forEach(p => { (byCat[p[3]] = byCat[p[3]] || []).push(p); });
-  const catKeys = Object.keys(byCat);
-  const orderedCats = [
-    ...catKeys.filter(c => PRIORITY_CATS.has(c)),
-    ...catKeys.filter(c => !PRIORITY_CATS.has(c))
-  ];
-
-  container.innerHTML = orderedCats.map(cat => {
-    const info     = CATEGORIES_MAP[cat] || ["", cat];
-    const isPriority = PRIORITY_CATS.has(cat);
-    const cards = byCat[cat].map(p => {
-      const idx      = ALL_PRODUCTS.findIndex(x => x[0] === p[0]);
-      const qty      = cardQty[idx] || 1;
-      const cartQty  = inCartQty(idx);
-      const isInCart = cartQty > 0;
-      return `<div class="product-card${isInCart ? ' in-cart' : ''}" id="card-${idx}">
-        <span class="in-cart-badge">En pedido x${cartQty}</span>
+  const byCat={};
+  filtered.forEach(p=>{(byCat[p[3]]=byCat[p[3]]||[]).push(p);});
+  const catKeys=Object.keys(byCat);
+  const orderedCats=[...catKeys.filter(c=>PRIORITY_CATS.has(c)),...catKeys.filter(c=>!PRIORITY_CATS.has(c))];
+  container.innerHTML=orderedCats.map(cat=>{
+    const info=CATEGORIES_MAP[cat]||["",cat];
+    const isPriority=PRIORITY_CATS.has(cat);
+    const cards=byCat[cat].map(p=>{
+      const idx=ALL_PRODUCTS.findIndex(x=>x[0]===p[0]);
+      const qty=cardQty[idx]||1;
+      const cq=inCartQty(idx);
+      return `<div class="product-card${cq>0?" in-cart":""}" id="card-${idx}">
+        <span class="in-cart-badge">En pedido x${cq}</span>
         <div class="product-card-top">
           <div class="product-info">
             <div class="product-code">#${p[0]}</div>
-            <div class="product-name">${hl(p[1], currentSearch)}</div>
+            <div class="product-name">${hl(p[1],currentSearch)}</div>
           </div>
           <div class="product-price-wrap">
             <span class="product-currency">ARS $</span>
@@ -424,15 +390,15 @@ function render() {
         </div>
         <div class="product-card-bottom">
           <div class="qty-inline">
-            <button class="qty-inline-btn" onclick="changeCardQty(${idx}, -1)">&#8722;</button>
+            <button class="qty-inline-btn" onclick="changeCardQty(${idx},-1)">&#8722;</button>
             <span class="qty-inline-num" id="cqty-${idx}">${qty}</span>
-            <button class="qty-inline-btn" onclick="changeCardQty(${idx}, 1)">&#43;</button>
+            <button class="qty-inline-btn" onclick="changeCardQty(${idx},1)">&#43;</button>
           </div>
-          <button class="add-to-cart-btn" id="addbtn-${idx}" onclick="addToCart(${idx}, this)">+ Agregar</button>
+          <button class="add-to-cart-btn" id="addbtn-${idx}" onclick="addToCart(${idx},this)">+ Agregar</button>
         </div>
       </div>`;
     }).join("");
-    return `<div class="category-section${isPriority ? ' priority' : ''}">
+    return `<div class="category-section${isPriority?" priority":""}">
       <div class="category-header">
         <span class="category-icon">${info[0]}</span>
         <span class="category-title">${info[1]}</span>
@@ -442,138 +408,78 @@ function render() {
     </div>`;
   }).join("");
 }
-
-function toggleSort() {
-  sortAsc = !sortAsc;
-  document.getElementById("sortLabel").textContent = sortAsc ? "Menor precio" : "Mayor precio";
-  document.getElementById("sortBtn").classList.toggle("active", !sortAsc);
-  render();
+function toggleSort(){sortAsc=!sortAsc;document.getElementById("sortLabel").textContent=sortAsc?"Menor precio":"Mayor precio";document.getElementById("sortBtn").classList.toggle("active",!sortAsc);render();}
+document.getElementById("searchInput").addEventListener("input",e=>{currentSearch=e.target.value;render();});
+document.getElementById("categoryFilter").addEventListener("change",e=>{currentCat=e.target.value;render();});
+function changeCardQty(idx,delta){cardQty[idx]=Math.max(1,(cardQty[idx]||1)+delta);const el=document.getElementById("cqty-"+idx);if(el)el.textContent=cardQty[idx];}
+function addToCart(idx,btn){
+  const p=ALL_PRODUCTS[idx];if(!p)return;
+  const qty=cardQty[idx]||1;
+  const existing=cart.find(i=>i.idx===idx);
+  if(existing){existing.qty+=qty;}else{cart.push({idx,code:p[0],name:p[1],price:p[2],qty});}
+  btn.textContent="Agregado x"+qty;btn.classList.add("added");
+  setTimeout(()=>{btn.textContent="+ Agregar";btn.classList.remove("added");updateCardState(idx);},1200);
+  updateCartUI();updateCardState(idx);
 }
-document.getElementById("searchInput").addEventListener("input", e => { currentSearch = e.target.value; render(); });
-document.getElementById("categoryFilter").addEventListener("change", e => { currentCat = e.target.value; render(); });
-
-function changeCardQty(idx, delta) {
-  cardQty[idx] = Math.max(1, (cardQty[idx] || 1) + delta);
-  const el = document.getElementById("cqty-" + idx);
-  if (el) el.textContent = cardQty[idx];
+function updateCardState(idx){
+  const card=document.getElementById("card-"+idx);if(!card)return;
+  const cq=inCartQty(idx);card.classList.toggle("in-cart",cq>0);
+  const badge=card.querySelector(".in-cart-badge");if(badge)badge.textContent="En pedido x"+cq;
 }
-
-function addToCart(idx, btn) {
-  const p = ALL_PRODUCTS[idx];
-  if (!p) return;
-  const qty      = cardQty[idx] || 1;
-  const existing = cart.find(i => i.idx === idx);
-  if (existing) { existing.qty += qty; }
-  else           { cart.push({idx, code:p[0], name:p[1], price:p[2], qty}); }
-  btn.textContent = "Agregado x" + qty;
-  btn.classList.add("added");
-  setTimeout(() => { btn.textContent = "+ Agregar"; btn.classList.remove("added"); updateCardState(idx); }, 1200);
-  updateCartUI();
-  updateCardState(idx);
+function changeCartQty(idx,delta){
+  const item=cart.find(i=>i.idx===idx);if(!item)return;
+  item.qty+=delta;if(item.qty<=0)cart=cart.filter(i=>i.idx!==idx);
+  updateCartUI();updateCardState(idx);
 }
-
-function updateCardState(idx) {
-  const card = document.getElementById("card-" + idx);
-  if (!card) return;
-  const cartQty = inCartQty(idx);
-  card.classList.toggle("in-cart", cartQty > 0);
-  const badge = card.querySelector(".in-cart-badge");
-  if (badge) badge.textContent = "En pedido x" + cartQty;
-}
-
-function changeCartQty(idx, delta) {
-  const item = cart.find(i => i.idx === idx);
-  if (!item) return;
-  item.qty += delta;
-  if (item.qty <= 0) cart = cart.filter(i => i.idx !== idx);
-  updateCartUI();
-  updateCardState(idx);
-}
-
-function updateCartUI() {
-  const total  = cart.reduce((s,i) => s + i.price * i.qty, 0);
-  const count  = cart.reduce((s,i) => s + i.qty, 0);
-  document.getElementById("cartCount").textContent = count;
-  document.getElementById("cartFab").classList.toggle("empty", count === 0);
-  document.getElementById("cartTotal").textContent = "$ " + fmt(total);
-  const body     = document.getElementById("cartBody");
-  const footer   = document.getElementById("cartFooter");
-  const emptyMsg = document.getElementById("cartEmptyMsg");
-  document.querySelectorAll(".cart-item").forEach(el => el.remove());
-  if (!cart.length) {
-    emptyMsg.style.display = "block";
-    footer.style.display   = "none";
-  } else {
-    emptyMsg.style.display = "none";
-    footer.style.display   = "block";
-    const frag = document.createDocumentFragment();
-    cart.forEach(item => {
-      const div = document.createElement("div");
-      div.className = "cart-item";
-      div.innerHTML = `
-        <div class="cart-item-info">
-          <div class="cart-item-code">Cod. ${item.code}</div>
-          <div class="cart-item-name">${item.name}</div>
-          <div class="cart-item-price">$ ${fmt(item.price)} c/u</div>
-        </div>
-        <div class="cart-item-qty">
-          <button class="qty-btn minus" onclick="changeCartQty(${item.idx}, -1)">&#8722;</button>
-          <span class="qty-num">${item.qty}</span>
-          <button class="qty-btn" onclick="changeCartQty(${item.idx}, 1)">&#43;</button>
-        </div>`;
+function updateCartUI(){
+  const total=cart.reduce((s,i)=>s+i.price*i.qty,0);
+  const count=cart.reduce((s,i)=>s+i.qty,0);
+  document.getElementById("cartCount").textContent=count;
+  document.getElementById("cartFab").classList.toggle("empty",count===0);
+  document.getElementById("cartTotal").textContent="$ "+fmt(total);
+  const body=document.getElementById("cartBody");
+  const footer=document.getElementById("cartFooter");
+  const emptyMsg=document.getElementById("cartEmptyMsg");
+  document.querySelectorAll(".cart-item").forEach(el=>el.remove());
+  if(!cart.length){emptyMsg.style.display="block";footer.style.display="none";}
+  else{
+    emptyMsg.style.display="none";footer.style.display="block";
+    const frag=document.createDocumentFragment();
+    cart.forEach(item=>{
+      const div=document.createElement("div");div.className="cart-item";
+      div.innerHTML=`<div class="cart-item-info"><div class="cart-item-code">Cod. ${item.code}</div><div class="cart-item-name">${item.name}</div><div class="cart-item-price">$ ${fmt(item.price)} c/u</div></div><div class="cart-item-qty"><button class="qty-btn minus" onclick="changeCartQty(${item.idx},-1)">&#8722;</button><span class="qty-num">${item.qty}</span><button class="qty-btn" onclick="changeCartQty(${item.idx},1)">&#43;</button></div>`;
       frag.appendChild(div);
     });
-    body.insertBefore(frag, emptyMsg);
+    body.insertBefore(frag,emptyMsg);
   }
   updateSendBtn();
 }
-
-function buildSellers() {
-  const grid = document.getElementById("sellerGrid");
-  SELLERS.forEach((s,i) => {
-    const btn = document.createElement("button");
-    btn.className   = "seller-btn";
-    btn.textContent = s.name;
-    btn.onclick     = () => selectSeller(i);
-    grid.appendChild(btn);
-  });
+function buildSellers(){
+  const grid=document.getElementById("sellerGrid");
+  SELLERS.forEach((s,i)=>{const btn=document.createElement("button");btn.className="seller-btn";btn.textContent=s.name;btn.onclick=()=>selectSeller(i);grid.appendChild(btn);});
 }
-function selectSeller(idx) {
-  selectedSeller = idx;
-  document.querySelectorAll(".seller-btn").forEach((b,i) => b.classList.toggle("selected", i===idx));
-  updateSendBtn();
+function selectSeller(idx){selectedSeller=idx;document.querySelectorAll(".seller-btn").forEach((b,i)=>b.classList.toggle("selected",i===idx));updateSendBtn();}
+function updateSendBtn(){document.getElementById("sendBtn").disabled=selectedSeller===null||!cart.length;}
+function openCart(){document.getElementById("cartOverlay").classList.add("open");document.getElementById("cartDrawer").classList.add("open");}
+function closeCart(){document.getElementById("cartOverlay").classList.remove("open");document.getElementById("cartDrawer").classList.remove("open");}
+function sendWhatsApp(){
+  if(selectedSeller===null||!cart.length)return;
+  const seller=SELLERS[selectedSeller];
+  const cliente=document.getElementById("clientName").value.trim();
+  const fecha=new Date().toLocaleDateString("es-AR");
+  let msg="*PEDIDO - PRONTO EXPRESS*\n";
+  msg+="Proveedor: *"+PROV_NAME+"*\n";
+  msg+="Fecha: "+fecha+"\n";
+  if(cliente)msg+="Cliente: *"+cliente+"*\n";
+  msg+="\n*Detalle del pedido:*\n";
+  msg+="-------------------------------\n";
+  cart.forEach(item=>{msg+="Cod. "+item.code+" - "+item.name+"\n   Cant: "+item.qty+" x $"+fmt(item.price)+" = *$"+fmt(item.price*item.qty)+"*\n";});
+  msg+="-------------------------------\n";
+  const total=cart.reduce((s,i)=>s+i.price*i.qty,0);
+  msg+="*TOTAL: $"+fmt(total)+"*\n\nPrecios sujetos a cambios sin previo aviso.";
+  window.open("https://wa.me/"+seller.phone+"?text="+encodeURIComponent(msg),"_blank");
 }
-function updateSendBtn() {
-  document.getElementById("sendBtn").disabled = selectedSeller === null || !cart.length;
-}
-function openCart()  { document.getElementById("cartOverlay").classList.add("open");    document.getElementById("cartDrawer").classList.add("open"); }
-function closeCart() { document.getElementById("cartOverlay").classList.remove("open"); document.getElementById("cartDrawer").classList.remove("open"); }
-
-function sendWhatsApp() {
-  if (selectedSeller === null || !cart.length) return;
-  const seller  = SELLERS[selectedSeller];
-  const cliente = document.getElementById("clientName").value.trim();
-  const fecha   = new Date().toLocaleDateString("es-AR");
-  let msg = "*PEDIDO - PRONTO EXPRESS*\n";
-  msg += "Proveedor: *" + PROV_NAME + "*\n";
-  msg += "Fecha: " + fecha + "\n";
-  if (cliente) msg += "Cliente: *" + cliente + "*\n";
-  msg += "\n*Detalle del pedido:*\n";
-  msg += "-------------------------------\n";
-  cart.forEach(item => {
-    msg += "Cod. " + item.code + " - " + item.name + "\n";
-    msg += "   Cant: " + item.qty + " x $" + fmt(item.price) + " = *$" + fmt(item.price * item.qty) + "*\n";
-  });
-  msg += "-------------------------------\n";
-  const total = cart.reduce((s,i) => s + i.price * i.qty, 0);
-  msg += "*TOTAL: $" + fmt(total) + "*\n";
-  msg += "\nPrecios sujetos a cambios sin previo aviso.";
-  window.open("https://wa.me/" + seller.phone + "?text=" + encodeURIComponent(msg), "_blank");
-}
-
-buildCategoryFilter();
-render();
-buildSellers();
+buildCategoryFilter();render();buildSellers();
 </script>
 </body>
 </html>
